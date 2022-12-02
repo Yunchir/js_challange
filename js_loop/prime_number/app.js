@@ -1,11 +1,16 @@
-let num = prompt("too oruula");
-let i = 0;
-let output = true;
+let n = prompt("prime number")
+let prime = true;
 
-while (i < num.length) {
-  if (num.charAt(i) != num.charAt(num.length - 1 - i)) {
-    output = false;
+for (let i = 2; i < n; i++) {
+  if (n % i == 0) {
+    prime = false;
+    break
   }
-  i++;
 }
-alert(output);
+
+if (prime == true) {
+  alert("true");
+} else {
+  alert("False")
+}
+

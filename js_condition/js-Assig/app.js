@@ -54,6 +54,7 @@ true;
 let eight = !(4 > 3 && 10 < 12);
 console.log(eight);
 false;
+console.log("test");
 let nine = !(4 > 3 && 10 > 12);
 console.log(nine);
 true;

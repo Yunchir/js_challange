@@ -9,3 +9,4 @@ while (i < num.length) {
   i++;
 }
 alert(output);
+alert(output);

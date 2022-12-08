@@ -1,27 +1,27 @@
-// let ognoo = prompt("он, сар, өдөр");
+let ognoo = prompt("он, сар, өдөр");
 // // let ognoo = "2022, 3, 1";
 
-// let year = ognoo.substring(0, ognoo.indexOf(","));
+let year = ognoo.substring(0, ognoo.indexOf(","));
 
-// ognoo = ognoo.substring(ognoo.indexOf(",") + 2);
+ognoo = ognoo.substring(ognoo.indexOf(",") + 2);
 
-// let month = ognoo.substring(0, ognoo.indexOf(","));
+let month = ognoo.substring(0, ognoo.indexOf(","));
 
-// ognoo = ognoo.substring(ognoo.indexOf(",") + 2);
+ognoo = ognoo.substring(ognoo.indexOf(",") + 2);
 
-// let day = ognoo.substring(0, ognoo.length);
+let day = ognoo.substring(0, ognoo.length);
 
-// if (month >= 1 && month <= 12) {
-//   month = month.length == 1 ? "0" + month : month;
-// } else {
-//   month = "iim sar bhku";
-// }
-// if (day >= 1 && day <= 31) {
-//   day = day.length == 1 ? "0" + day : day;
-// } else {
-//   day = "iim udur bhku";
-// }
-// alert(year + "-" + month + "-" + day);
+if (month >= 1 && month <= 12) {
+  month = month.length == 1 ? "0" + month : month;
+} else {
+  month = "iim sar bhku";
+}
+if (day >= 1 && day <= 31) {
+  day = day.length == 1 ? "0" + day : day;
+} else {
+  day = "iim udur bhku";
+}
+alert(year + "-" + month + "-" + day);
 
 // Гараас утасны дугаар ( 99001234 ) аван шалгах, зөв дугаар бол харгалзах операторыг (Unitel, Mobicom, G-Mobile, Skytel) хэвлэх , буруу дугаар бол буруу гэсэн мессежийг өгөх
 

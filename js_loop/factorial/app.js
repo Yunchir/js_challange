@@ -1,5 +1,8 @@
-// let n = parseFloat(prompt("Ta duriin toogoo oruulnuu"));
-let bact = 0;
+let n = parseFloat(prompt("Ta duriin toogoo oruulnuu"));
+let fact = n - 1;
 
-while (n > 0) {}
-// alert(bact);
+while (fact > 0) {
+  n = fact * n;
+  fact--;
+}
+alert(n);

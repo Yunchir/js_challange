@@ -1,13 +1,17 @@
-// let upa = "Hello World";
-// let lover = "Hello World";
+let input = "This !big SMALL";
+const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const lower = "abcdefghijklmnopqrstuvwxyz";
 
-// let a = "h";
-// let output = "ello";
-// console.log(a.toLoverCase(h) + output.toUpperCase(ello));
-
-let up = "w";
-let output = "orld";
-x = up.toLoverCase();
-x = output.toUpperCase();
-
-console.log(x);
+function converter(string) {
+  let result = "";
+  for (i = 0; string.length; i++) {
+    if (upper.includes(string[i])) {
+      result += string[i].toLowerCase();
+    } else if (lower.includes(string[i])) {
+      result += string[i].toUpperCase();
+    } else {
+      return result;
+    }
+    console.log(converter("hello"));
+  }
+}

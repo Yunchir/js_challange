@@ -17,7 +17,6 @@ duplicate = [
 var count = {};
 duplicate.forEach(function (i) {
   count[i] = (count[i] || 0) + 1;
-  //   count = count + duplicate + "\n";
 });
 
 console.log(count);
